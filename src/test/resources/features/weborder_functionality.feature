@@ -1,5 +1,5 @@
 
-@ui @wip
+@smoke
 Feature: Web order should work as expected
   
   As a user the order tab should work as expected

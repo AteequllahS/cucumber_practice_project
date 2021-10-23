@@ -1,4 +1,4 @@
-@ui @homework
+@smoke @homework
 Feature: Doing homework
 
   As a student, I want to be able to finish my homework so that I can learn good stuff

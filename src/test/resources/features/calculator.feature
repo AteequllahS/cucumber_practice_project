@@ -1,4 +1,4 @@
-@non_ui @calculator
+@smoke @calculator
 Feature: Calculator Feature
 
   As a user, I should be able to use the calculator,

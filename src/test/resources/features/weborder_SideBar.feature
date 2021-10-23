@@ -1,4 +1,4 @@
-
+@smoke
 Feature: Side bar at web order page should work as expected
   As a user, I should be able to login to web order app
 

@@ -64,6 +64,7 @@
             <version>5.3.0</version>
         </dependency>
 
+
         <!-- if you want to get rid of SLF4J Failed to load message on console (optional) -->
         <dependency>
             <groupId>org.slf4j</groupId>

@@ -10,7 +10,8 @@ import io.cucumber.java.en.When;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
+
 
 public class DataTable_homework_StepDef {
 

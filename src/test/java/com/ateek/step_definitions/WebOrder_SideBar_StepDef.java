@@ -6,14 +6,9 @@ import com.ateek.utility.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import static org.junit.Assert.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class WebOrder_SideBar_StepDef {
 
@@ -83,13 +78,15 @@ public class WebOrder_SideBar_StepDef {
 
 
     @When("we select {string} from sidebar")
-    public void we_select_from_sidebar(String string) {
+    public void we_select_from_sidebar(String tabName) {
+        System.out.println("Tab name was selected"+tabName);
 
 
     }
 
     @Then("we should see below {string} in Product Dropdown list")
-    public void we_should_see_below_in_product_dropdown_list(String string) {
+    public void we_should_see_below_in_product_dropdown_list(String info) {
+        System.out.println("product info created"+info);
 
 
     }

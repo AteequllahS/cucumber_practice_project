@@ -6,12 +6,14 @@ import java.util.Properties;
 
 public class ConfigReader {
 
-    private static Properties  properties = new Properties();
+    private static Properties properties;
 
     static {
 
         try{
+            String path = "config.properties";
             FileInputStream in = new FileInputStream("config.properties");
+            properties = new Properties();
             properties.load(in);
             in.close();
 

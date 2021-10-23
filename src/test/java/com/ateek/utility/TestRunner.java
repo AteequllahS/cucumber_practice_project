@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
             features = "src/test/resources/utility",                            // or "src/test/resources/features",
             glue = "com/ateek/step_definitions",
        //     publish = true,
-            plugin = {"pretty",
+            plugin = {
                     "json:target/cucumber.json",
                     "html:target/cucumber/",
                     "junit:target/junit/junit-report.xml",

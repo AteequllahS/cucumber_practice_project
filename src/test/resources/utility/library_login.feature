@@ -1,4 +1,4 @@
-@ui #@wip
+@smoke
 Feature: Logging into Library Web
 
   As a user, I should be able to login into library app

@@ -1,4 +1,4 @@
-@non_ui @eating_cucumber
+@smoke @eating_cucumber
 Feature: Eating too many cucumbers may not be good for you
   eating too much of anything may not be good for you.
 

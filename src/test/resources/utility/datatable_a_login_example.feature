@@ -1,4 +1,4 @@
-@ui @datatable
+@smoke @datatable
 Feature: logging in the weborder page
 
   as, I user I should be able to login with valid credentials

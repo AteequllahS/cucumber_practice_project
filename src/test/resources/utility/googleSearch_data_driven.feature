@@ -1,4 +1,4 @@
-@ui #@wip
+@smoke
 Feature: Google Search Data Driven
 
   As a user, I should be able to search by keyword

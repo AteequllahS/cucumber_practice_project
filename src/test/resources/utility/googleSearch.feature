@@ -1,4 +1,4 @@
-@ui
+@smoke
 Feature: Google Search
 
   As a user, i should be able to search by keyword and get my result

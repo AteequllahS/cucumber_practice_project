@@ -1,4 +1,4 @@
-@ui
+@smoke
 Feature: Files Module should work as expected2
 
   As a user, I should be able to access to Files module2

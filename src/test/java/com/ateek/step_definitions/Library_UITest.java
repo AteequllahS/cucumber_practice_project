@@ -42,7 +42,7 @@ public class Library_UITest {
 
         assertEquals(expectedUserCount, actualUserCount);
 
-        Driver.closeBrowser();
+        Driver.closeDriver();
 
     }
 
@@ -64,7 +64,7 @@ public class Library_UITest {
         System.out.println("expected_Book_Count = " + expected_book_Count);
 
         assertEquals(expected_book_Count, actual_Books_Count);
-        Driver.closeBrowser();
+        Driver.closeDriver();
     }
 
     @Test
@@ -85,7 +85,7 @@ public class Library_UITest {
         System.out.println("expected_BorrowedBook_Count = " + expected_BorrowedBook_Count);
 
         assertEquals(expected_BorrowedBook_Count, actual_borrowed_book_count);
-        Driver.closeBrowser();
+        Driver.closeDriver();
 
     }
 

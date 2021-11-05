@@ -1,7 +1,7 @@
 package com.ateek.pages;
 
-import com.ateek.utility.Driver;
 import com.ateek.utility.BrowserUtil;
+import com.ateek.utility.Driver;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                         "rerun:target/failed_reports.txt",
                         "me.jvt.cucumber.report.PrettyReports:target"},
             dryRun = false
-//            ,tags = "@homework"
+           ,tags = ""
                 )
 
 public class TestRunner {

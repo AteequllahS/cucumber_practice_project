@@ -1,6 +1,5 @@
 package com.ateek.step_definitions;
 
-import com.ateek.utility.BrowserUtil;
 import com.ateek.utility.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
